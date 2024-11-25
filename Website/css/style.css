@@ -87,7 +87,7 @@ section {
 }
 
 h1 {
-    font-size: 3.75rem;
+    font-size: 4rem;
     line-height: 4.25rem;
     font-weight: 700;
     color: var(--text-white);
@@ -129,7 +129,7 @@ h6 {
 }
 
 p {
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: var(--text-black);
     line-height: 1.625rem;
 }
@@ -169,7 +169,7 @@ p {
 }
 
 .header_wrapper .nav-item .nav-link {
-    font-size: 1rem;
+    font-size: 1.6rem;
     font-weight: 500;
     color: var(--primary-text);
     display: inline-block;
@@ -207,7 +207,7 @@ p {
 
 /* 3 Banner */
 .banner_wrapper {
-    height: 40.625rem;
+    height: 60.625rem;
 }
 
 .banner_wrapper .swiper {
@@ -258,7 +258,7 @@ p {
     color: var(--text-white);
 }
 
-.booking-area {
+/*.booking-area {
     background: var(--bg-white);
     box-shadow: 0 .625rem .9375rem 0 rgb(0 0 0 / 10%);
     margin-top: -4rem;
@@ -281,7 +281,7 @@ p {
 .booking-area .form-select:focus {
     outline: none;
     box-shadow: none;
-}
+}*/
 
 /* 4 About */
 .about_wrapper {
@@ -688,5 +688,97 @@ p {
 
 .footer_wrapper .copyright-section a {
     color: var(--secondary-text);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* General Footer Styling */
+.footer {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+}
+
+.footer h5 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #f8f9fa;
+}
+
+.footer p,
+.footer ul li {
+    font-size: 1rem; /* Compact font size */
+    color: #b0b0b0;
+    margin-bottom: 10px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer ul li a:hover {
+    color: #ff7b7b; /* Accent color on hover */
+}
+
+/* Social Media Icons */
+.footer .fa {
+    font-size: 1.2rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer .fa:hover {
+    color: #ff7b7b;
+    transform: scale(1.1);
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    background-color: #1a1a1a; /* Slightly darker black */
+    font-size: 0.8rem; /* Compact text */
+    color: #868e96;
+}
+
+.footer-bottom a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-bottom a:hover {
+    color: #ff7b7b; /* Subtle hover effect */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer {
+        text-align: center;
+    }
+
+    .footer .d-flex {
+        justify-content: center;
+    }
+
+    .footer ul {
+        text-align: center;
+    }
 }
 

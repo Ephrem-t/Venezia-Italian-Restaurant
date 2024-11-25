@@ -158,7 +158,8 @@
                     <a href="#" class="main-btn mt-4">Explore</a>
                 </div>
                 <div class="col-lg-6 mb-4 mb-lg-0 ps-lg-4 text-center">
-                    <img decoding="async" src="images/about-img.svg" class="img-fluid" alt="About Us">
+                    <img decoding="async" src="images/about-img.jpg" style="width: 400px; float: right;" class="img-fluid" alt="About Us">
+
                 </div>
 
             </div>
@@ -543,27 +544,27 @@
             </div>
             <div class="row g-0">
                 <div class="col-lg-3 col-md-6 gallery-item">
-                    <img decoding="async" src="./images/gallery/1.webp" class="img-fluid w-100">
+                    <img decoding="async" src="./images/gallery/1.jpg" class="img-fluid w-100">
                     <div class="gallery-item-content"></div>
                 </div>
                 <div class="col-lg-3 col-md-6 gallery-item">
-                    <img decoding="async" src="./images/gallery/2.webp" class="img-fluid w-100">
+                    <img decoding="async" src="./images/gallery/2.jpg" class="img-fluid w-100">
                     <div class="gallery-item-content"></div>
                 </div>
                 <div class="col-lg-3 col-md-6 gallery-item">
-                    <img decoding="async" src="./images/gallery/3.webp" class="img-fluid w-100">
+                    <img decoding="async" src="./images/gallery/3.jpg" class="img-fluid w-100">
                     <div class="gallery-item-content"></div>
                 </div>
                 <div class="col-lg-3 col-md-6 gallery-item">
-                    <img decoding="async" src="./images/gallery/4.webp" class="img-fluid w-100">
+                    <img decoding="async" src="./images/gallery/4.jpg" class="img-fluid w-100">
                     <div class="gallery-item-content"></div>
                 </div>
                 <div class="col-md-6 gallery-item">
-                    <img decoding="async" src="./images/gallery/5.webp" class="img-fluid w-100">
+                    <img decoding="async" src="./images/gallery/5.jpg" class="img-fluid w-100">
                     <div class="gallery-item-content"> </div>
                 </div>
                 <div class="col-md-6 gallery-item">
-                    <img decoding="async" src="./images/gallery/6.webp" class="img-fluid w-100">
+                    <img decoding="async" src="./images/gallery/6.jpg" class="img-fluid w-100">
                     <div class="gallery-item-content"> </div>
                 </div>
             </div>
@@ -627,52 +628,83 @@
                         </div>
                     </div>
                 </div>
+
+
+                
                 <div class="col-md-4">
                     <div class="contact-form">
                         <h5>Contact Us</h5>
-                        <form>
+                        <form action="mailto:betirtech@gmail.com" method="POST" enctype="multipart/form-data">
                             <div class="form-group mb-3">
-                                <input type="text" class="form-control" placeholder="Your Name">
+                                <input type="text" class="form-control" name="name" placeholder="Your Name" required>
                             </div>
                             <div class="form-group mb-3">
-                                <input type="email" class="form-control" placeholder="Your Email">
+                                <input type="email" class="form-control" name="email" placeholder="Your Email" required>
                             </div>
                             <div class="form-group mb-3">
-                                <textarea class="form-control" rows="9" placeholder="Your Comment"></textarea>
+                                <textarea class="form-control" name="comment" rows="9" placeholder="Your Comment" required></textarea>
                             </div>
                             <button type="submit" class="main-btn rounded-2 mt-3 border-red text-red">Send Message</button>
                         </form>
                     </div>
                 </div>
+                
+        
+
+
+            
+
+            <!-- Redesigned Footer -->
+<footer id="contact" class="footer bg-black text-light">
+    <div class="container py-4">
+        <div class="row">
+            <!-- Company Info -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <h5 class="fw-bold text-uppercase">About Us</h5>
+                <p class="small">
+                    Experience luxury and comfort at our hotel. Nestled in the heart of the city, we offer world-class amenities and exceptional hospitality to make your stay unforgettable.
+                </p>
             </div>
 
-    <!-- Footer section -->
-    <section id="contact" class="footer_wrapper mt-3 mt-md-0 pb-0">
-        <div class="container pb-3">
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="contact-info">
-                        <ul class="list-unstyled">
-                            <li><a href="#"><i class="fa fa-home me-3"></i> No. 96, South City, London</a></li>
-                            <li><a href="#"><i class="fa fa-phone me-3"></i>+1 222 3333</a></li>
-                            <li><a href="#"><i class="fa fa-envelope me-3"></i>info@example.com</a></li>
-                        </ul>
-                    </div>
-                </div>
-                    <h5>Stay Connected</h5>
-                    <ul class="social-network d-flex align-items-center p-0">
-                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                        <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
-                    </ul>
+            <!-- Quick Links -->
+            <div class="col-lg-3 col-md-6 mb-4">
+                <h5 class="fw-bold text-uppercase">Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-light small text-decoration-none">Home</a></li>
+                    <li><a href="#" class="text-light small text-decoration-none">Services</a></li>
+                    <li><a href="#" class="text-light small text-decoration-none">Portfolio</a></li>
+                    <li><a href="#" class="text-light small text-decoration-none">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="col-lg-3 col-md-6 mb-4">
+                <h5 class="fw-bold text-uppercase">Contact</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><i class="fa fa-map-marker-alt me-2"></i>96, South City, London</li>
+                    <li class="mb-2"><i class="fa fa-phone me-2"></i>+1 222 3333</li>
+                    <li><i class="fa fa-envelope me-2"></i>info@example.com</li>
+                </ul>
+            </div>
+
+            <!-- Social Media -->
+            <div class="col-lg-2 col-md-6 text-center text-lg-start">
+                <h5 class="fw-bold text-uppercase">Follow Us</h5>
+                <div class="d-flex justify-content-center justify-content-lg-start gap-3">
+                    <a href="#" class="text-light"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-light"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-light"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-light"><i class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
         </div>
-        <div class="container-fluid copyright-section">
-            <p>Copyright <a href="#">Â© BetirTech</a> All Rights Reserved</p>
-        </div>
-    </section>
+    </div>
+
+    <div class="footer-bottom text-center py-3">
+        <p class="small mb-0">&copy; 2024 <a href="#" class="text-light text-decoration-none fw-bold">BetirTech</a>. All Rights Reserved.</p>
+    </div>
+</footer>
+
     <!-- Footer section exit -->
 
     <!-- Bootstrap 5 JS CDN Links -->
